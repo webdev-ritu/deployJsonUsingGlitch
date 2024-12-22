@@ -46,6 +46,11 @@
       "id": "5",
       "text": "Awesome post!",
       "postId": "5"
+    },
+    {
+      "id": "6",
+      "text": "Awesome post!",
+      "postId": "5"
     }
   ]
 }
