@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mini user app</title>
+  <title>Users App</title>
 </head>
 <body>
-    <h1>Users App</h1>
-    <button id="getUsers">Get Users</button>
-    <button id="createUser">Create User</button>
-    <button id="updateUser">Update User</button>
-    <button id="deleteUser">Delete User</button>
-    <div id="user-list"></div>
-    <script src="script.js"></script>
+  <h1>Users</h1>
+
+  <div id="usersList"></div>
+
+  <h2>Create User</h2>
+  <input type="text" id="nameInput" placeholder="Name">
+  <input type="text" id="emailInput" placeholder="Email">
+  <button id="createUserButton">Create User</button>
+
+  <h2>Update User</h2>
+  <button id="updateUserButton">Update User of ID 1</button>
+
+  <h2>Delete User</h2>
+  <button id="deleteUserButton">Delete User of ID 1</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
