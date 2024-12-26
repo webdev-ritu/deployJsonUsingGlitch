@@ -71,6 +71,13 @@
       "name": "Bob"
     }
   },
+  "todos":[
+    {
+      "id": 1,
+      "task": "Learn JavaScript",
+      "completed": false
+    }
+  ],
   "Questions":[
     {
       "title": "Which of the following methods is used to update?",
